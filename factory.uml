@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.mx.factory.IPhone</OriginalElement>
+  <nodes>
+    <node x="-81.0" y="295.0">com.mx.factory.HuaWeiPhone</node>
+    <node x="440.0" y="118.0">com.mx.factory.func.IPhoneFactory</node>
+    <node x="-277.0" y="289.0">com.mx.factory.IPhone</node>
+    <node x="282.0" y="-21.0">com.mx.factory.func.FuncMobilePhoneFactory</node>
+    <node x="140.0" y="115.0">com.mx.factory.func.HuaWeiPhoneFactory</node>
+    <node x="172.0" y="362.0">com.mx.factory.abstr.MobilePhoneFactory</node>
+    <node x="165.0" y="221.0">com.mx.factory.abstr.AbstrMobilePhoneFactory</node>
+    <node x="-300.0" y="127.0">com.mx.factory.AbstractMobilePhone</node>
+    <node x="-263.5" y="0.0">com.mx.factory.IMobilePhone</node>
+    <node x="-69.5" y="23.0">java.io.Serializable</node>
+    <node x="-259.0" y="408.0">com.mx.factory.simple.SimpleMobilePhoneFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.mx.factory.AbstractMobilePhone" target="java.io.Serializable">
+      <point x="101.0" y="-50.5" />
+      <point x="3.0" y="102.0" />
+      <point x="-19.5" y="102.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.mx.factory.AbstractMobilePhone" target="com.mx.factory.IMobilePhone">
+      <point x="-101.0" y="-50.5" />
+      <point x="-199.0" y="102.0" />
+      <point x="-176.5" y="102.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.mx.factory.func.IPhoneFactory" target="com.mx.factory.func.FuncMobilePhoneFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.mx.factory.IPhone" target="com.mx.factory.AbstractMobilePhone">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="com.mx.factory.HuaWeiPhone" target="com.mx.factory.AbstractMobilePhone">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.mx.factory.abstr.MobilePhoneFactory" target="com.mx.factory.abstr.AbstrMobilePhoneFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.mx.factory.func.HuaWeiPhoneFactory" target="com.mx.factory.func.FuncMobilePhoneFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="327.0" y="237.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
